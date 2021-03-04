@@ -1,7 +1,22 @@
 $gloss-black: #464648;
 $off-white: #f9f1f1;
+
 body {
   background-color: $gloss-black;
   color: $off-white;
 
+}
+
+.play-area{
+  margin: 0 auto;
+  width: 300px;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  background-color: #b1b1b1;
+}
+
+.box {
+  border: 1px $gloss-black solid;
+  width: 100px;
+  height: 100px;
 }
